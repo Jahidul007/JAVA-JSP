@@ -23,19 +23,18 @@ In JSP, we can use a lot of tags such as action tags, jstl, custom tags etc. tha
 I provide the steps on how to create a WAR file in Eclipse. I also show how to deploy the WAR file on Tomcat.<br/>
 
 
-* 1. In Eclipse, stop Tomcat
+* In Eclipse, stop Tomcat
 
-* 2. Right-click your project and select Export > WAR File
+* Right-click your project and select Export > WAR File
 
-* 3. In the Destination field, enter: <any-directory>/web-student-tracker.war
+* In the Destination field, enter: <any-directory>/web-student-tracker.war
 
-* 4. Outside of Eclipse, start Tomcat
-* - If you are using MS Windows, then you should find it on the Start menu
+* Outside of Eclipse, start Tomcat
+ - If you are using MS Windows, then you should find it on the Start menu
 
-* 5. Make sure Tomcat is up and running by visiting: http://localhost:8080<br/>
+* Make sure Tomcat is up and running by visiting: http://localhost:8080<br/>
 
-* 6. Deploy your new WAR file by copying it to <tomcat-install-directory>\webapps<br/>
-
-Give it about 10-15 seconds to make the deployment. You'll know the deployment is over because you'll see a new folder created in webapps ... with your WAR file name.<br/>
+* Deploy your new WAR file by copying it to <tomcat-install-directory>\webapps<br/>
+   Give it about 10-15 seconds to make the deployment. You'll know the deployment is over because you'll see a new folder created in        webapps ... with your WAR file name.<br/>
 
 * 7. Visit your new app. If your war file was: web-student-tracker.war then you can access it with:  http://localhost:8080/web-student-tracker/<br/>
