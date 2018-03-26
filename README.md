@@ -27,7 +27,7 @@ I provide the steps on how to create a WAR file in Eclipse. I also show how to d
 
 * Right-click your project and select Export > WAR File
 
-* In the Destination field, enter: <any-directory>/web-student-tracker.war
+* In the Destination field, enter: any-directory/web-student-tracker.war
 
 * Outside of Eclipse, start Tomcat
   If you are using MS Windows, then you should find it on the Start menu
