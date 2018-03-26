@@ -27,7 +27,7 @@ I provide the steps on how to create a WAR file in Eclipse. I also show how to d
 
 * Right-click your project and select Export > WAR File
 
-* In the Destination field, enter: __any-directory/web-student-tracker.war__
+* In the Destination field, enter: __any-directory/web_student_tracker.war__
 
 * Outside of Eclipse, start Tomcat
   If you are using MS Windows, then you should find it on the Start menu
@@ -37,4 +37,4 @@ I provide the steps on how to create a WAR file in Eclipse. I also show how to d
 * Deploy your new WAR file by copying it to <tomcat-install-directory>\webapps<br/>
    Give it about 10-15 seconds to make the deployment. You'll know the deployment is over because you'll see a new folder created in        webapps ... with your WAR file name.<br/>
 
-* 7. Visit your new app. If your war file was: web-student-tracker.war then you can access it with:  http://localhost:8080/web-student-tracker/<br/>
+* 7. Visit your new app. If your war file was: web_student_tracker.war then you can access it with:  http://localhost:8080/web_student_tracker/<br/>
