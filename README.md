@@ -30,7 +30,7 @@ I provide the steps on how to create a WAR file in Eclipse. I also show how to d
 * In the Destination field, enter: <any-directory>/web-student-tracker.war
 
 * Outside of Eclipse, start Tomcat
- - If you are using MS Windows, then you should find it on the Start menu
+  If you are using MS Windows, then you should find it on the Start menu
 
 * Make sure Tomcat is up and running by visiting: http://localhost:8080<br/>
 
